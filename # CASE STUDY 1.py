@@ -17,18 +17,18 @@ Accept number of units for each items.
 - Use proper indentation and comments.
 """
 
-
+#declaring variable
 items = 5
 total_cost = 0
 
-
+w
 print("Enter details for 5 items:")
 for i in range(items):
     price = float(input(f"Enter price of item {i+1}: "))
     quantity = int(input(f"Enter quantity of item {i+1}: "))
     total_cost += price * quantity
 
-
+#printing the original total 
 print(f"\nOriginal Total: Rs. {total_cost:.2f}")
 
 # applying discount
@@ -40,6 +40,7 @@ if total_cost > 100:
 else:
     final_amount = total_cost
     print("No discount applicable")
+
 
 
 print(f"Final  Amount: Rs. {final_amount:.2f}")
