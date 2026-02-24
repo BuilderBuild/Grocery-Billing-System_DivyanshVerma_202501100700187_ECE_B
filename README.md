@@ -1,5 +1,5 @@
 # Grocery-Billing-System_DivyanshVerma_202501100700187_ECE_B
-CASE STUDY 1: This is a program for finding the total discounted price of items provided.
+CASE STUDY 1: Grocery Store Billing System using Python
 
 **Problem Statement:**
 A grocery store wants to calculate the total cost of items purchased by a customer.
